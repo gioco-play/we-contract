@@ -25,7 +25,7 @@ interface WEServiceInterface
      * @param string $language
      * @return mixed
      */
-    function gameDetail(string $op_code, string $account, string $bet_id, string $vendor_code, string $language);
+    function gameDetail(string $op_code, string $account, string $bet_id, string $vendor_code, string $language, string $odd_type);
 
     /**
      * 營商帳號轉換為遊戲商帳號
